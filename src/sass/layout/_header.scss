@@ -1,6 +1,6 @@
 header :where(.container) {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -8,23 +8,60 @@ header :where(.container) {
     display: flex;
     align-items: center;
 }
+.header-logo{
+    margin-right: 368px;
+}
 .header-nav-wrapper{
     display: flex;
+    align-items: center;
 }
-.header-logo{
+.header-nav-button{
+    width: 123px;
+    height: 47px;
+    font-family: var(--text-secondary);
+    font-style: normal;
+    font-weight: var(--text-btn-normal);
+    font-size: 14px;
+    line-height: 2.14;
+    color: var(--main-white-color);
+    background: var(--main-color);
+    border: none;
+    border-radius: var(--border-radius);
+    margin-left: 45px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+// .header-logo{
     
-}
+// }
 
 .header-nav-list {
     display: flex;
 
 }
+.header-nav-list-item {
+    &:not(:last-child) {
+        margin-right: 45px;
+    }
+}
+
+// .header-img-logo-img {
+//     width: 161px;
+//     height: 40px;
+// }
+
 
 .header-nav-list-link{
    
-        font-weight: 400;
+        color: #575C74;
         font-size: 16px;
         line-height: 1.875;
+
+        &:active{ 
+            color:#0C122D;
+        }
+       
 }
 
 
