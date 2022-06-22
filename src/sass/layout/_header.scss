@@ -1,0 +1,30 @@
+header :where(.container) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-nav-wrapper{
+    display: flex;
+}
+.header-logo{
+    
+}
+
+.header-nav-list {
+    display: flex;
+
+}
+
+.header-nav-list-link{
+   
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.875;
+}
+
+
